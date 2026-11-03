@@ -2,10 +2,13 @@
 
     1)
     
-      `  
+
+      ```bash  
         $ cd ~/dev/AboutGit 
         $ git init                 
-      `  
+      ```
+      
+
         (инициализация)
     
 
