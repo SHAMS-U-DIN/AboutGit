@@ -45,3 +45,15 @@
 	
 	HEAD - служебный файл, указывает на последний коммит (ссылка, хэш)
 ---
+
+	Схема статусов файлов в процессе работы git:
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+  tracked/comitted --> modified
+  modified --"git add"--> staged
+```
+
+---
